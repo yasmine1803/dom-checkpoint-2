@@ -1,0 +1,28 @@
+/* Styling the container class to center its content horizontally and give it some top margin for spacing. */.container{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+/* Styling the color-box id with a fixed width and height, and set a default background color. */
+#color-box{
+    width: 300px;
+    height: 300px;
+    border: solid rgb(79, 78, 78);
+    border-radius: 50px;
+    margin-bottom: 30px;
+    background-color: rgb(209, 205, 200);
+}
+/* Styling the change-color-btn id to make it visually appealing and easily clickable. */
+#change-color-btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#change-color-btn:hover{
+    background-color: rgb(188, 173, 145);
+    box-shadow:  0 10px 25px rgba(0, 0, 0, 0.3);
+}
